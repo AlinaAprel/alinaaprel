@@ -1,0 +1,45 @@
+.header {
+  background-image: url('../../images/cover-image.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 100vw;
+  height: 576px;
+}
+
+.header__menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  list-style-type: none;
+  margin: 0;
+  padding-top: 2%;
+}
+
+.header__nav {
+  margin: 0 4.625em 0 0;
+  font-size: 16px;
+  color: #FFFFFF;
+  font-family: 'Montserrat';
+  font-weight: 300;
+  font-style: normal;
+  border-bottom: 0.5px solid #ffffff;
+  padding-bottom: 0;
+  cursor: pointer;
+}
+
+.header__nav:last-child {
+  margin: 0;
+}
+
+.header__title {
+  width: 573px;
+  font-family: 'Montserrat';
+  font-weight: 500;
+  font-style: normal;
+  font-size: 64px;
+  line-height: 152.4%;
+  color: #FFFFFF;
+  text-align: right;
+  margin-left: auto;
+  margin-right: 5%;
+}
