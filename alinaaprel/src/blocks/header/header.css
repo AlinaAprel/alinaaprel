@@ -11,6 +11,7 @@
   flex-direction: row;
   justify-content: center;
   list-style-type: none;
+  text-decoration: none;
   margin: 0;
 }
 

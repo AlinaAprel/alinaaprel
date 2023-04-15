@@ -2,33 +2,11 @@ import React from "react";
 import '../../blocks/Experience/Experience.css'
 import Cover from '../MainPage/Cover';
 import Job from './Job';
+import Button from '../Button';
 import Footer from '../Footer';
+import { polarionTasks, polarionSkills, epamTasks, myootvTasks } from '../../scripts/variables.js';
 
 function Experience() {
-  const polarionTasks = [
-    'Lorem ipsum dolor sit amet',
-    'Lorem ipsum dolor sit amet',
-    'Lorem ipsum dolor sit amet',
-    'Lorem ipsum dolor sit amet',
-    'Lorem ipsum dolor sit amet'
-  ];
-
-  const epamTasks = [
-    'Lorem ipsum dolor sit amet',
-    'Lorem ipsum dolor sit amet',
-    'Lorem ipsum dolor sit amet',
-    'Lorem ipsum dolor sit amet',
-    'Lorem ipsum dolor sit amet'
-  ];
-
-  const myootvTasks = [
-    'Lorem ipsum dolor sit amet',
-    'Lorem ipsum dolor sit amet',
-    'Lorem ipsum dolor sit amet',
-    'Lorem ipsum dolor sit amet',
-    'Lorem ipsum dolor sit amet'
-  ];
-
   return(
     <>
       <Cover />
@@ -38,6 +16,7 @@ function Experience() {
         date="Июнь 2022 - Октябрь 2022" 
         tasks={polarionTasks}
       />
+      <Button button={polarionSkills}/>
 
       <Job 
         title="EPAM" 
@@ -52,6 +31,7 @@ function Experience() {
         date="Июнь 2018 - Апрель 2020" 
         tasks={myootvTasks}
       />
+      
       <Footer />
     </>
   );

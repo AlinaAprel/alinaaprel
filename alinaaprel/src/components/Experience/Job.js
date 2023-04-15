@@ -9,7 +9,7 @@ function Job(props) {
         <h3 className="job__name">{props.name}</h3>
         <h4 className="job__date">{props.date}</h4>
         <ul className="job__description">
-          {props.tasks.map(task => <li className="job__task">{task}</li>)}
+          {props.tasks.map((task, index) => <li key={index} className="job__task">{task}</li>)}
         </ul>
       </div>
     </div>
