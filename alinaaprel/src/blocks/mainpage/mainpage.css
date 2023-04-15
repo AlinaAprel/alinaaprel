@@ -1,0 +1,26 @@
+@import url('./cover/cover.css');
+@import url('./video/video.css');
+
+.mainpage {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 85px;
+  padding: 60px 160px;
+  background-color: #E3E3E3;
+}
+
+.mainpage__avatar {
+  width: 435px;
+  height: 435px;
+}
+
+.mainpage__about {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 41px;
+  text-align: justify;
+
+}

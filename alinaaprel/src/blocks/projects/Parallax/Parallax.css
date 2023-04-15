@@ -1,0 +1,58 @@
+.parallax {
+  background: linear-gradient(#000000, #cdcdcd);
+  padding: 60px 80px;
+}
+
+.parallax__title {
+  margin: 0;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 78px;
+  color: #FFFFFF;
+}
+
+.parallax__content {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 60px 0;
+}
+
+.parallax__light {
+  position: absolute;
+  top: 35px;
+  right: -40px;
+  z-index: 1;
+  width: 511px;
+  height: 434px;
+  background: rgba(255, 255, 255, 0.52);
+  filter: blur(100px);
+}
+
+.parallax__paragraph {
+  width: 386px;
+  align-self: flex-end;
+  margin: 0;
+  margin-top: 80px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 199.9%;
+  text-align: right;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.parallax__description {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 170.9%;  
+  text-align: justify;
+  color: #FFFFFF;
+}

@@ -1,0 +1,44 @@
+.footer {
+  display: flex;
+  flex-direction: row;
+  background-color: #FFFFFF;
+  padding: 60px 80px 0;
+}
+
+.footer__first-group, .footer__second-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__first-group {
+  margin-right: 285px;
+}
+
+.footer__second-group {
+  margin-right: 20%;
+}
+
+.footer__link, .footer__author {
+  font-family: 'Montserrat';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  color: #717171;
+  text-decoration: none;
+  margin-bottom: 5%;
+}
+
+.footer_github {
+  margin-top: 60px;
+}
+
+.footer_mail {
+  display: flex;
+  justify-self: end;
+  height: 30px;
+  margin-top: 53px;
+}
+
+.footer__author {
+  padding-top: 102px;
+}

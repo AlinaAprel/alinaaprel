@@ -1,0 +1,59 @@
+.mesto {
+  background: linear-gradient(#0F203D, #000000);
+  padding: 60px 80px;
+}
+
+.mesto__title {
+  margin: 0;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 78px;
+  color: #FFFFFF;
+}
+
+.mesto__content {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 60px 0;
+}
+
+.mesto__light {
+  position: absolute;
+  top: 35px;
+  right: -40px;
+  z-index: 1;
+  width: 511px;
+  height: 434px;
+  background: #3474E2;
+  filter: blur(100px);
+}
+
+.mesto__paragraph {
+  width: 590px;
+  align-self: flex-end;
+  margin: 0;
+  margin-top:0px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 199.9%;
+  text-align: right;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  z-index: 2;
+}
+
+.mesto__description {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 170.9%;  
+  text-align: justify;
+  color: #FFFFFF;
+}
