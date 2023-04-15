@@ -3,8 +3,14 @@ import '../../blocks/Experience/Experience.css'
 import Cover from '../MainPage/Cover';
 import Job from './Job';
 import Button from '../Button';
+import Skills from '../Skills';
 import Footer from '../Footer';
-import { polarionTasks, polarionSkills, epamTasks, myootvTasks } from '../../scripts/variables.js';
+
+import { 
+  polarionTasks,
+  polarionSkills,
+  epamTasks,
+  myootvTasks } from '../../scripts/variables.js';
 
 function Experience() {
   return(
@@ -32,6 +38,7 @@ function Experience() {
         tasks={myootvTasks}
       />
       
+      <Skills />
       <Footer />
     </>
   );
