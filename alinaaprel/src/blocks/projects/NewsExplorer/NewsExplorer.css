@@ -1,6 +1,6 @@
 .newsExplorer {
   background: linear-gradient(#3474E2, #0F203D);
-  padding: 60px 80px;
+  padding: calc(100vw/100*6) calc(100vw/100*8);
 }
 
 .newsExplorer__title {
@@ -8,8 +8,7 @@
   font-family: 'Montserrat';
   font-style: normal;
   font-weight: 700;
-  font-size: 64px;
-  line-height: 78px;
+  font-size: calc(100vw/100*6.4);
   color: #FFFFFF;
 }
 
@@ -18,15 +17,15 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin: 60px 0;
+  margin: calc(100vw/100*6) 0;
 }
 
 .newsExplorer__light {
   position: absolute;
-  top: 35px;
-  right: -40px;
+  top: calc(100vw/100*3.5);
+  right: calc(100vw/100*(-4));
   z-index: 1;
-  width: 511px;
+  width: calc(100vw/100*50);
   height: 434px;
   background: rgba(255, 255, 255, 0.52);
   filter: blur(100px);

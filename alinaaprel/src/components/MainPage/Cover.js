@@ -1,12 +1,11 @@
-import React from "react";
-import coverImg from '../../images/cover-image.png';
+import '../../blocks/mainpage/Cover/Cover.css';
+import coverImg from '../../images/cover-image.jpeg';
 
 function Cover() {
-  return(
-    <div className="cover">
-      <img className="cover__image" src={coverImg} alt="cover"></img>
-      <h1 className="cover__title">Расстояний не надо бояться, надо бояться обосраться</h1>
-      <p className="cover__description">- Алина Апрель</p>
+  return (
+    <div className="mainpage__cover">
+      <img className="mainpage__image" src={coverImg} alt="cover"></img>
+      <h1 className="mainpage__title">Мы живем, пока занимаемся свои любимым делом</h1>
     </div>
   );
 }

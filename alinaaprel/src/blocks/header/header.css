@@ -1,9 +1,12 @@
 .header {
+  width: 100%;
+  top: 0;
+  left: 0;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 50px;
-  background-color: #B6BCB8;
+  height: 40px;
+  background-color: #c7c7c7;
 }
 
 .header__menu {
@@ -18,13 +21,25 @@
 .header__nav {
   font-family: 'Montserrat';
   font-weight: 300;
-  font-size: 16px;
+  font-size: 18px;
   font-style: normal;
   color: #FFFFFF;
-  margin: 0 4.625em 0 0;
+  margin: 0 calc(100vw/100*6.5) 0 0;
   cursor: pointer;
 }
 
 .header__nav:last-child {
   margin: 0;
+}
+
+@media screen and (min-width: 767px) and (max-width: 1023px) {
+  .header__nav {
+    font-size: 14px;
+  }
+}
+
+@media screen and (min-width: 1023px) and (max-width: 1300px) {
+  .header__nav {
+    font-size: 16px;
+  }
 }

@@ -1,15 +1,15 @@
 import React from 'react';
-import Footer from '../Footer';
 import Cover from './Cover';
+import Footer from '../Footer';
 import AboutMe from './AboutMe';
 
 function MainPage() {
   return (
-    <div>
-        <Cover />
-        <AboutMe />
-        <Footer />
-    </div>
+    <>
+      <Cover />
+      <AboutMe />
+      <Footer />
+    </>
   );
 }
 

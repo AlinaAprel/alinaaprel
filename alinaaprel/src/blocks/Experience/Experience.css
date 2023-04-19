@@ -1,7 +1,7 @@
 .job {
   display: flex;
   flex-direction: row;
-  padding: 60px 80px;
+  padding: calc(100vw/100*6) calc(100vw/100*8);
   background-color: #F1F1F1;
 }
 

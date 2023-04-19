@@ -13,8 +13,7 @@ function NewsExplorer() {
         <h3 className="newsExplorer__paragraph">ищи читай сохраняй</h3>
         <div className="newsExplorer__light"></div>
       </div>
-      <p className="newsExplorer__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua.</p>
+      <p className="newsExplorer__description">Cервис, в котором можно найти новости по запросу и сохранить в личном кабинете.</p>
     </div>
   );
 }

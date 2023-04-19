@@ -1,6 +1,5 @@
 import React from "react";
 import '../../blocks/Experience/Experience.css'
-import Cover from '../MainPage/Cover';
 import Job from './Job';
 import Button from '../Button';
 import Skills from '../Skills';
@@ -10,12 +9,13 @@ import {
   polarionTasks,
   polarionSkills,
   epamTasks,
-  myootvTasks } from '../../scripts/variables.js';
+  epamSkills,
+  myootvTasks,
+  myootvSkills } from '../../scripts/variables.js';
 
 function Experience() {
   return(
     <>
-      <Cover />
       <Job 
         title="Polarion (Siemens)" 
         name="Junior frontend developer" 
@@ -30,6 +30,7 @@ function Experience() {
         date="Сентябрь 2021 - Май 2022" 
         tasks={epamTasks}
       />
+      <Button button={epamSkills}/>
 
       <Job 
         title="MYOO.TV" 
@@ -37,6 +38,7 @@ function Experience() {
         date="Июнь 2018 - Апрель 2020" 
         tasks={myootvTasks}
       />
+      <Button button={myootvSkills}/>
       
       <Skills />
       <Footer />

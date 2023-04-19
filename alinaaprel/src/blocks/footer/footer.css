@@ -1,21 +1,18 @@
 .footer {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
   background-color: #FFFFFF;
-  padding: 60px 80px 0;
+  padding: 40px 80px;
 }
 
-.footer__first-group, .footer__second-group {
+.footer__group {
   display: flex;
   flex-direction: column;
 }
 
-.footer__first-group {
-  margin-right: 285px;
-}
-
-.footer__second-group {
-  margin-right: 20%;
+.footer__group {
+  margin-right: 10vw;
 }
 
 .footer__link, .footer__author {
@@ -28,17 +25,12 @@
   margin-bottom: 5%;
 }
 
-.footer_github {
-  margin-top: 60px;
-}
-
-.footer_mail {
-  display: flex;
-  justify-self: end;
-  height: 30px;
-  margin-top: 53px;
+.footer__link:last-child {
+  margin-bottom: 0;
 }
 
 .footer__author {
-  padding-top: 102px;
+  margin: 0;
+  height: 20px;
+  align-self: flex-end;
 }

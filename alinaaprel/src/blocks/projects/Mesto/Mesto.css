@@ -1,6 +1,6 @@
 .mesto {
   background: linear-gradient(#0F203D, #000000);
-  padding: 60px 80px;
+  padding: calc(100vw/100*6) calc(100vw/100*8);
 }
 
 .mesto__title {
@@ -34,9 +34,10 @@
 
 .mesto__paragraph {
   width: 590px;
+  height: auto;
   align-self: flex-end;
   margin: 0;
-  margin-top:0px;
+  margin-top: 80px;
   font-family: 'Montserrat';
   font-style: normal;
   font-weight: 600;
